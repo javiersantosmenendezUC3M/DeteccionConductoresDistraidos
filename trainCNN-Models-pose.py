@@ -122,14 +122,9 @@ from torchvision.models import (
 def get_torch_network(config):
     networks = {
         'resnet18': models.resnet18,
-        'resnet34': models.resnet34,
         'resnet50': models.resnet50,
-        'resnet101': models.resnet101,
-        'resnet152': models.resnet152,
         'vgg19': models.vgg19,
         'vgg16': models.vgg16,
-        'mobilenet_v2': models.mobilenet_v2,
-        'densenet121': models.densenet121,
         'efficientnet_b0': models.efficientnet_b0,
         'efficientnet_b1': models.efficientnet_b1,
         'efficientnet_b2': models.efficientnet_b2,
