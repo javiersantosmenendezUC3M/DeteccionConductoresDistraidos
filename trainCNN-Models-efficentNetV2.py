@@ -379,7 +379,7 @@ val_loader = DataLoader(
 # Definir la función de pérdida y el optimizador
 loss_function = nn.CrossEntropyLoss()
 
-from torch_optimizer import RAdam, Lookahead  # Necesitas: pip install torch_optimizer
+from torch_optimizer import RAdam, Lookahead  # Necesario: pip install torch_optimizer
 from lion_pytorch import Lion
 
 # Opción base: cambia aquí si quieres otro de estos tres directamente
@@ -457,7 +457,7 @@ def lr_lambda(step):
 
 #scheduler = torch.optim.lr_scheduler.LambdaLR(optimizer, lr_lambda)
 #scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=4, verbose=True)
-#8️⃣ Preparación de datos y modelo
+# Preparación de datos y modelo
 best_acc = 0.0
 import csv
 import os
