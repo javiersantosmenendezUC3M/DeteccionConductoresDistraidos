@@ -2,7 +2,7 @@ import os
 from PIL import Image
 from torchvision import transforms
 
-# Transformación igual que la que usarías en entrenamiento
+# Transformación igual que en entrenamiento
 resize_transform = transforms.Resize((260, 260))
 
 def resize_with_transforms(input_dir, output_dir):
